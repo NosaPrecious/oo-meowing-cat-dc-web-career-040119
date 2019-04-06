@@ -14,3 +14,5 @@ end
 end
 
 maru= Cat.new("Maru")
+
+Cat.meow
