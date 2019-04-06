@@ -4,8 +4,6 @@ class Cat
   
   #attr_accessor :name
   def initialize
-    #binding.pry
-    @name = name
 end
 
 def name=(name)
