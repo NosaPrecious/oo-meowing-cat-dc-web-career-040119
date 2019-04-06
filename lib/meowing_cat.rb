@@ -2,15 +2,11 @@
 
 class Cat
   
-  attr_accessor
-  def initialize
-  
-  end
-  
-  def attr_reader
-    @name
-  end
+  attr_accessor :name
+  def initialize(name)
+  @name= name
+end
   
 end
 
-maru= Cat.new("maru")
+maru= Cat.new("Maru")
