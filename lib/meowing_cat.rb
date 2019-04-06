@@ -2,8 +2,8 @@
 
 class Cat
   
-  def initialize(name)
-    @name= name
+  def initialize
+  
   end
   
   def attr_reader
