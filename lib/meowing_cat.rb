@@ -8,6 +8,14 @@ class Cat
     @name = name
 end
 
+def name=(name)
+  @name= name
+end
+
+def name
+  @name
+end
+
 def self.meow
   puts "meow!"
 end
