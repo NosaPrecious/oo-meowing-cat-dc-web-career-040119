@@ -22,4 +22,4 @@ end
 
 maru= Cat.new
 
-Cat.meow
+maru.meow
